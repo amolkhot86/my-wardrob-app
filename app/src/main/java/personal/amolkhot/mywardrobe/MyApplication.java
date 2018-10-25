@@ -4,6 +4,8 @@ import android.app.Application;
 import android.graphics.Typeface;
 import android.util.Log;
 
+import personal.amolkhot.mywardrobe.framework.Framework;
+
 /**
  * Created by amol.khot on 12-Oct-18.
  */
@@ -11,12 +13,10 @@ import android.util.Log;
 public class MyApplication extends Application {
 
     private static String TAG = "MyApplication";
-    Typeface font_tempus_sans_itc;
+
     @Override
     public void onCreate() {
         super.onCreate();
-        font_tempus_sans_itc = Typeface.createFromAsset(getAssets(),  "fonts/tempus_sans_itc.ttf");
-        Log.i(TAG,"FONT LOADED");
+        Framework.Initialize(this);
     }
-    public Typeface getFont_Tempus_Sans_ITC(){return font_tempus_sans_itc;}
 }

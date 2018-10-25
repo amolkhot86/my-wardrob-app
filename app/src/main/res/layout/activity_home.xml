@@ -7,7 +7,7 @@
     android:background="#ffffff"
     android:paddingTop="30dp"
     android:paddingBottom="10dp"
-    tools:context="personal.amolkhot.mywardrobe.HomeActivity">
+    tools:context="personal.amolkhot.mywardrobe.ui.screens.HomeActivity">
 
     <ImageView
         android:id="@+id/logo_image"

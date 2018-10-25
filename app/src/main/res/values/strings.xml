@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">MyWardrobe</string>
+    <string name="app_name">My Wardrobe</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="default_user">Welcome</string>
+    <string name="switch_user"><u>Switch User</u></string>
+    <string name="create_user"><u>Create User</u></string>
 </resources>

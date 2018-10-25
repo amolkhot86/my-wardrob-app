@@ -1,7 +1,9 @@
-package personal.amolkhot.mywardrobe;
+package personal.amolkhot.mywardrobe.ui.screens;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import personal.amolkhot.mywardrobe.R;
 
 public class HomeActivity extends AppCompatActivity {
 
